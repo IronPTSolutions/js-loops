@@ -10,9 +10,8 @@ for (let character of message) {
   if (character === '#') {
     break;
   }
-  console.log(character);
 
-  switch (character) {
+  switch (character.toLowerCase()) {
     case 'a':
     case 'e':
     case 'i':
